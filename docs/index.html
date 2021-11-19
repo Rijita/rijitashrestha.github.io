@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rijita</title>
-	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
-	<link rel="icon" href="logo.png" type="image/x-icon">
+	<link rel="shortcut icon" href="images/teddy.png" type="image/x-icon">
+	<link rel="icon" href="images/teddy.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -53,7 +53,7 @@
         <div id="lead-content">
             <h1>Rijita Shrestha</h1>
             
-            <a href="rijita.pdf" class="btn-rounded-white" download>Download Resume</a>
+            <a href="Rijita.pdf" class="btn-rounded-white" download>Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -87,6 +87,16 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
+            <div data-date="Currently Working">
+                <h3>Australian Computer Society </h3>
+                <h4>Web Developer Intern</h4>
+                <ul list-style="none">
+                    <li>	Front-end desiging and development</li>
+<li>	Database design and Functionality development</li>
+
+                </ul>
+            </div>
+
             <div data-date="February 2017 – August 2018">
                 <h3>Peace for People </h3>
                 <h4>Technical Communicator</h4>
@@ -182,6 +192,20 @@
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/react.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>React App (Rijita)</h3>
+                        <p>
+                            This mini project was developed by me when I was learning React. This project is the User-interface listing the product and just a contact form design that is hosted in github. It is developed for both mobile and desktop browser.
+                        </p>
+                        <a href="https://rijita.github.io/Reactweb/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
             </div>
         </div>
     </div>
@@ -192,18 +216,13 @@
         <ul>
             <li>PHP</li>
             <li>Laravel</li>
-            <li>Django</li>
-            <li>Flask</li>
+          
             <li>React</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-           
+            
+           <li>HTML</li>
+           <li>CSS</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-           <li>Ruby on Rails</li>
+           
         </ul>
     </div>
     <!-- End #skills -->
@@ -212,11 +231,11 @@
         <h2>Get in Touch</h2>
         <p id="result" style="color: red;"></p>
         <div id="contact-form">
-            <form method="POST" action="https://script.google.com/macros/s/AKfycbyivqIIvh_KucQVuhI3YiXJklW2Qz1QDRa9U0CGeg/exec">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" id="email" required>
-                <textarea name="message" placeholder="Your message" id="message" required></textarea>
-                <button type="button" onclick="sendEmail(event)">Send</button>
+            <form action="https://formsubmit.co/shrestharijita@gmail.com" method="POST"></form>
+                <input type="text" name="name" placeholder="Your name" required/>
+                <input type="email" name="email" placeholder="Your email"  required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit" >Send</button>
             </form>
         </div>
         <!-- End #contact-form -->
